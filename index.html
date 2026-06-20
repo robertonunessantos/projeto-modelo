@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Garante que o site se adapte bem em celulares, tablets e computadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto Modelo - Página Inicial</title>
+
+    <!-- Arquivo CSS externo -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho principal do site -->
+    <header class="cabecalho" id="inicio">
+        <nav class="menu">
+            <h1 class="logo">Projeto Modelo</h1>
+
+            <ul class="lista-menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section class="area-hero">
+            <div class="texto-hero">
+                <p class="etiqueta">Modelo para aulas de programação</p>
+                <h2>Uma página simples, bonita e bem organizada</h2>
+                <p>
+                    Este projeto foi criado como exemplo para professores trabalharem
+                    HTML, CSS e JavaScript com seus alunos de forma clara e prática.
+                </p>
+
+                <div class="botoes-hero">
+                    <a href="#sobre" class="botao botao-principal">Conhecer o projeto</a>
+                    <button class="botao botao-secundario" id="botaoMensagem">
+                        Ver mensagem
+                    </button>
+                </div>
+            </div>
+
+            <div class="cartao-destaque">
+                <h3>Estrutura do projeto</h3>
+                <ul>
+                    <li>HTML para o conteúdo</li>
+                    <li>CSS para o visual</li>
+                    <li>JavaScript para interação</li>
+                </ul>
+            </div>
+        </section>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <section class="secao" id="sobre">
+            <div class="titulo-secao">
+                <p>Sobre</p>
+                <h2>Por que usar este modelo?</h2>
+            </div>
+
+            <div class="conteudo-sobre">
+                <p>
+                    Este site serve como ponto de partida para projetos escolares,
+                    atividades práticas, introdução ao desenvolvimento web e publicação
+                    de páginas no GitHub Pages.
+                </p>
+
+                <p>
+                    O código utiliza nomes de classes, ids e funções em português para
+                    facilitar a leitura e o entendimento de estudantes iniciantes.
+                </p>
+            </div>
+        </section>
+
+        <section class="secao secao-clara" id="recursos">
+            <div class="titulo-secao">
+                <p>Recursos</p>
+                <h2>O que os alunos podem aprender?</h2>
+            </div>
+
+            <div class="grade-recursos">
+                <article class="cartao-recurso">
+                    <span class="icone">HTML</span>
+                    <h3>Estrutura</h3>
+                    <p>
+                        Organização da página com cabeçalho, menu, seções,
+                        cards e rodapé.
+                    </p>
+                </article>
+
+                <article class="cartao-recurso">
+                    <span class="icone">CSS</span>
+                    <h3>Estilo</h3>
+                    <p>
+                        Cores, espaçamentos, responsividade, botões e cartões
+                        visuais.
+                    </p>
+                </article>
+
+                <article class="cartao-recurso">
+                    <span class="icone">JS</span>
+                    <h3>Interação</h3>
+                    <p>
+                        Uso de eventos, funções e alteração de conteúdo na página.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao" id="contato">
+            <div class="titulo-secao">
+                <p>Contato</p>
+                <h2>Mensagem interativa</h2>
+            </div>
+
+            <div class="caixa-mensagem">
+                <p id="textoMensagem">
+                    Clique no botão abaixo para alterar esta mensagem usando JavaScript.
+                </p>
+
+                <button class="botao botao-principal" id="botaoAlterarTexto">
+                    Alterar mensagem
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer class="rodape">
+        <p>
+            Projeto modelo criado para fins educacionais.
+        </p>
+    </footer>
+
+    <!-- Arquivo JavaScript externo -->
+    <script src="js/script.js"></script>
+</body>
+</html>
