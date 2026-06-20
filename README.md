@@ -1,5 +1,4 @@
-# projeto-modelo
-Projeto modelo para professores e alunos
+# Projeto Modelo
 
 Projeto simples para aulas introdutórias de desenvolvimento web.
 
@@ -30,3 +29,11 @@ Este projeto serve como modelo para professores de programação trabalharem:
 2. Abra o arquivo `index.html` no navegador.
 3. Edite os arquivos `style.css` e `script.js` para personalizar o projeto.
 4. Publique no GitHub Pages se desejar transformar em site online.
+
+
+## Autoria
+
+Projeto modelo criado por Prof. Roberto Nunes dos Santos.
+
+Faz parte do site de Formação Continuada de Professores:
+https://robertoprofessor.com.br/prof/
